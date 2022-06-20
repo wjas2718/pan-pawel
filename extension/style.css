@@ -1,0 +1,24 @@
+.mydiv {
+    position: fixed;
+    background: transparent;
+    width: fit-content;
+    height: fit-content;
+    top: 0;
+    left: 0;
+}
+
+.myimage {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0vh;
+    right: 0px;
+    width: 150px;
+}
+
+.pawel {
+    position: fixed;
+    z-index: 1000;
+    bottom: 0vh;
+    right: 0px;
+    width: 150px;
+}

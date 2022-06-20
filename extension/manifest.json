@@ -1,0 +1,21 @@
+{
+"name": "Pawel",
+    "description": "Pawel chodzi po twoim ekranie",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": { "16": "icons/icon16.PNG",
+      "48": "icons/icon48.PNG",
+      "128": "icons/icon128.PNG" },
+    "web_accessible_resources": [{
+      "resources": [ "paw/chair.svg" , "paw/paw1.svg", "paw/paw2.svg", 
+        "paw/paw3.svg", "paw/paw4.svg", "paw/sleep.svg", "paw/walk0.svg",
+        "paw/walk1.svg", "paw/walk2.svg", "paw/walk3.svg", "paw/paw5.svg"],
+      "matches": ["<all_urls>"]
+    }],
+    "content_scripts": [{
+      "matches": ["<all_urls>"],
+      "js": ["content-script.js"],
+      "css": ["style.css"]
+    }],
+    "permissions": ["scripting"]
+}
